@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="css/sanitize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="title">Rock Paper Scissors</div>
+    <main class="page">
+      <hr class="h-divider" />
+      <div class="subtitle">Choose one</div>
+      <div class="container game">
+        <div class="box">
+          <img src="img/rock.png" class="option" id="rock" />
+        </div>
+        <div class="box">
+          <img src="img/paper.png" class="option" id="paper" />
+        </div>
+        <div class="box">
+          <img src="img/scissor.png" class="option" id="scissors" />
+        </div>
+      </div>
+
+      <hr class="h-divider" />
+      <div class="subtitle">Results</div>
+
+      <div class="container results">
+        <div class="player">
+          <div class="heading">Player</div>
+          <div class="player_output">Click above</div>
+        </div>
+
+        <div class="v-divider"></div>
+
+        <div class="cpu">
+          <div class="heading">CPU</div>
+          <div class="cpu_output">Click above</div>
+        </div>
+      </div>
+
+      <div class="game-results"></div>
+      <hr class="h-divider" />
+      <div class="subtitle">Score</div>
+
+      <div class="container score">
+        <div class="player_score">0</div>
+        <div class="v-divider"></div>
+        <div class="cpu_score">0</div>
+      </div>
+    </main>
+    <footer>
+      <p class="copyright">&#169; </p><p class="footer_text">Michael Simpson</p>
+    </footer>
+    <script src="js/page.js" type="text/javascript"></script>
+  </body>
+</html>
